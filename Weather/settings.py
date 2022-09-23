@@ -22,6 +22,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-#t1z(ow_@(c8tkn(icq^_q^q%*(xj4ncft&vw4!e=!42d7rfou'
 
+# OpenWeatherApiCredentials
+API_KEY = 'f2fc359e60b15078e5078f7e2114cc52'
+BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -37,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'main_page',
 ]
 
 MIDDLEWARE = [
